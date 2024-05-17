@@ -1,0 +1,30 @@
+*{
+    box-sizing: content-box;
+}
+
+#thumbnailsBar{
+    min-height: 100px;
+    width: 100vw;
+    display: flex;
+    margin-bottom: 20px;
+}
+#navigationBar{
+    visibility: hidden;
+}
+
+#mainBar{
+    min-height: 300px;
+    width: 100vw;
+    display: flex;
+}
+
+.thumbnail{
+    height: 100px;
+    width: auto;
+    padding-right: 2px;
+}
+
+.properImage{
+    height: 300px;
+    width: auto;
+}
